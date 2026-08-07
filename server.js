@@ -72,3 +72,5 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`[Server] RoboCutz Express Backend running on port ${PORT} (ENV: ${process.env.NODE_ENV || 'development'})`);
 });
+
+module.exports = app;
